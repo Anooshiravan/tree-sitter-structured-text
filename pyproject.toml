@@ -3,7 +3,7 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.poetry]
-name = "tree-sitter-structured-text"
+name = "tree_sitter_structured_text"
 version = "0.0.1"
 description = "Structured Text grammar for tree-sitter"
 authors = ["Your Name <your.email@example.com>"]
@@ -13,7 +13,7 @@ homepage = "https://github.com/Anooshiravan/tree-sitter-structured-text"
 keywords = ["incremental", "parsing", "tree-sitter", "structured-text"]
 include = [
     "src/*",
-    "bindings/python/tree_sitter_structured-text/binding.c"
+    "bindings/python/tree_sitter_structured_text/binding.c"
 ]
 
 [tool.poetry.dependencies]
